@@ -1,6 +1,4 @@
-s = "abcd"
-for i in s[::-1]:
+for i in range(0,10):
+    if(i%2==0):
+        continue
     print(i)
-
-for i in range(4-1,0,-1):
-    print(s[i])
